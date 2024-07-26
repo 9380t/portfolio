@@ -1,49 +1,135 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+.background{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 5160px;
+        background: black;
+        z-index: 1;
+}
 .header span{
     position: fixed;
-    background: black;
+    background: white;
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 60px;
-    z-index: 99;
+    height: 80px;
+    z-index: 85;
 }
 .header h2{
     position: fixed;
     text-align: center;
-    color: white;
+    color: black;
+    font-size: 30px;
     height: 70px;
     width: 100%;
     top: 0px;
-    z-index: 100;
+    z-index: 90;
 }
-
 .header h1{
     position: absolute;
     top: 43%;
     left: 60%;
     font-size: 70px;
     font-family: 'Cinzel', serif;
+    color: white;
+    z-index: 70;
+}
+nav{
+    display: block;
+    width: 220px;
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    left: -300px;
+    bottom: 0;
+    transition: all 0.5s;
+    z-index: 100;
+    opacity: 0;
+}
+.open nav{
+    left: 0;
+    opacity: 1;
+
+}
+nav .inner{
+    padding: 25px;
+}
+nav .inner ul{
+    margin: 0;
+    padding: 0;
+}
+nav .inner ul li a{
+    display: block;
+    font-size: 15px;
+    padding: 1rem;
+    transition-duration: 0.2s;
+}
+nav .inner ul li a:hover{
+    background-color: #e4e4e4;
+}
+.toggle-btn{
+    display: block;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    z-index: 100;
+    cursor: pointer;
+}
+.toggle-btn span{
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background-color: #333;
+    transition: all 0.5s;
+    border-radius: 4px;
+}
+.toggle-btn span:nth-child(1){
+    top: 4px;
+}
+.toggle-btn span:nth-child(2){
+    top: 14px;
+}
+.toggle-btn span:nth-child(3){
+    bottom: 4px;
+}
+.open .toggle-btn span{
+    background-color: #fff;
+}
+.open .toggle-btn span:nth-child(1){
+    transform: translateY(10px) rotate(-315deg);
+}
+.open .toggle-btn span:nth-child(2){
+    opacity: 0;
+}
+.open .toggle-btn span:nth-child(1){
+    transform: translateY(-10px) rotate(315deg);
+}
+#mask{
+    display: none;
+    transition: all 0.5s;
+}
+.open #mask{
+    display: block;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    opacity: 0.8;
+    cursor: pointer;
 }
 .image1{
     position: absolute;
     top: 27%;
     left: 20%;
-}
-.menu{
-    display: grid;
-    place-items: center;
-    width: 44px;
-    aspect-ratio: 1;
-    border: none;
-    background-color: white;
-span{
-    display: block;
-    width: 70%;
-    height: 2px;
-    background-color: black;
-    grid-area: 1 / 1 / -1 /-1;
-}
+    z-index: 80;
 }
 .about h1{
     position: absolute;
@@ -51,13 +137,41 @@ span{
     left: 30%;
     font-size: 60px;
     font-family: 'Cinzel', serif;
+    z-index: 80;
+    color: white;
 }
-.about h2{
+.about ul{
     position: absolute;
     top: 1030px;
-    left: 41%;
+    left: 38%;
     font-size: 50px;
+    margin: 100px;
     line-height: 100px;
+    z-index: 80;
+    color: white;
+}
+a {
+    color: white;
+    }
+h1.prof{
+    display: block;
+    padding-top: 80px;
+    margin-top: -80px;
+}
+h1.prog{
+    display: block;
+    padding-top: 80px;
+    margin-top: -80px;
+}
+h1.illust{
+    display: block;
+    padding-top: 80px;
+    margin-top: -80px;
+}
+h1.maya{
+    display: block;
+    padding-top: 80px;
+    margin-top: -80px;
 }
 .profile h1{
     position: absolute;
@@ -65,6 +179,8 @@ span{
     left: 300px;
     font-size: 60px;
     font-family: 'Cinzel', serif;
+    z-index: 80;
+    color: white;
 }
 .profile h2{
     position: absolute;
@@ -72,11 +188,14 @@ span{
     left: 300px;
     font-size: 40px;
     line-height: 70px;
+    z-index: 80;
+    color: white;
 }
 .image2{
     position: absolute;
     top: 1850px;
     left: 55%;
+    z-index: 80;
 }
 .Programing h1{
     position: absolute;
@@ -84,6 +203,8 @@ span{
     left: 250px;
     font-size: 60px;
     font-family: 'Cinzel', serif;
+    z-index: 80;
+    color: white;
 }
 .Programing p{
     position: absolute;
@@ -91,6 +212,9 @@ span{
     left: 250px;
     font-size: 25px;
     line-height: 40px;
+    z-index: 80;
+    color: white;
+
 }
 .Illustrator h1{
     position: absolute;
@@ -98,6 +222,8 @@ span{
     left: 250px;
     font-size: 60px;
     font-family: 'Cinzel', serif;
+    z-index: 80;
+    color: white;
 }
 .Illustrator p{
     position: absolute;
@@ -105,6 +231,8 @@ span{
     left: 250px;
     font-size: 25px;
     line-height: 40px;
+    z-index: 80;
+    color: white;
 }
 .Maya h1{
     position: absolute;
@@ -112,6 +240,8 @@ span{
     left: 250px;
     font-size: 60px;
     font-family: 'Cinzel', serif;
+    z-index: 80;
+    color: white;
 }
 .Maya p{
     position: absolute;
@@ -119,14 +249,16 @@ span{
     left: 250px;
     font-size: 25px;
     line-height: 40px;
+    z-index: 80;
+    color: white;
 }
 .ending h1{
     position: absolute;
     top: 5475px;
-    left: 17.5%;
-    color: white;
+    left: 17.3%;
+    color: black;
     font-size: 70px;
-    z-index: 100;
+    z-index: 70;
     font-family: 'Cinzel', serif;
 }
 .ending span{
@@ -135,6 +267,6 @@ span{
     left: 0px;
     height: 820px;
     width: 100%;
-    background: black;
-    z-index: 99;
+    background: white;
+    z-index: 1;
 }
