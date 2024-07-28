@@ -69,7 +69,7 @@ h1.prof{
     padding-top: 80px;
     margin-top: -80px;
 }
-h1.prog{
+h1.img{
     display: block;
     padding-top: 80px;
     margin-top: -80px;
@@ -79,7 +79,7 @@ h1.illust{
     padding-top: 80px;
     margin-top: -80px;
 }
-h1.maya{
+h1.Prog{
     display: block;
     padding-top: 80px;
     margin-top: -80px;
@@ -108,7 +108,7 @@ h1.maya{
     left: 55%;
     z-index: 80;
 }
-.Programing h1{
+.imageprocessing h1{
     position: absolute;
     top: 2470px;
     left: 250px;
@@ -117,7 +117,7 @@ h1.maya{
     z-index: 80;
     color: white;
 }
-.Programing p{
+.imageprocessing p{
     position: absolute;
     top: 2700px;
     left: 250px;
@@ -129,19 +129,19 @@ h1.maya{
 }
 .image3{
     position: absolute;
-    top: 2530px;
+    top: 2540px;
     left: 50%;
     z-index: 80;
 }
 .image4{
     position: absolute;
-    top: 2730px;
+    top: 2740px;
     left: 70%;
     z-index: 70;
 }
-.Programing span{
+.imageprocessing span{
     position: absolute;
-    top: 2530px;
+    top: 2540px;
     left: 50%;
     height: 450px;
     width: 635px;
@@ -169,19 +169,19 @@ h1.maya{
 }
 .image5{
     position: absolute;
-    top: 3350px;
+    top: 3360px;
     left: 50%;
     z-index: 80;
 }
 .image6{
     position: absolute;
-    top: 3550px;
+    top: 3560px;
     left: 70%;
     z-index: 70;
 }
 .Illustrator span{
     position: absolute;
-    top: 3350px;
+    top: 3360px;
     left: 50%;
     height: 450px;
     width: 635px;
@@ -189,7 +189,7 @@ h1.maya{
     z-index: 10;
 
 }
-.Maya h1{
+.Programing h1{
     position: absolute;
     top: 4110px;
     left: 250px;
@@ -198,7 +198,7 @@ h1.maya{
     z-index: 80;
     color: white;
 }
-.Maya p{
+.Programing p{
     position: absolute;
     top: 4340px;
     left: 250px;
@@ -207,9 +207,21 @@ h1.maya{
     z-index: 80;
     color: white;
 }
-.Maya span{
+.image7{
+position: absolute;
+top: 4180px;
+left: 50%;
+z-index: 80;
+}
+.image8{
     position: absolute;
-    top: 4170px;
+    top: 4380px;
+    left: 70%;
+    z-index: 80;
+}
+.Programing span{
+    position: absolute;
+    top: 4180px;
     left: 50%;
     height: 450px;
     width: 635px;
@@ -257,7 +269,7 @@ h1.maya{
 }
     .header h1{
         position: absolute;
-        top: 200px;
+        top: 150px;
         left:48px;
         font-size: 70px;
         font-family: 'Cinzel', serif;
@@ -266,15 +278,15 @@ h1.maya{
     }
 .image1{
     position: absolute;
-    top: 600px;
-    left: 45px;
+    top: 450px;
+    left: 43px;
     height: 280px;
     width: 280px;
 }
 .about h1{
     position: absolute;
     top: 1050px;
-    left: 26px;
+    left: 22px;
     font-size: 35px;
     font-family: 'Cinzel', serif;
     z-index: 80;
@@ -282,7 +294,7 @@ h1.maya{
 }
 .about ul{
     position: absolute;
-    top: 1100px;
+    top: 1150px;
     left: 7px;
     font-size: 30px;
     margin: 100px;
@@ -292,8 +304,8 @@ h1.maya{
 }
 .profile h1{
     position: absolute;
-    top: 1600px;
-    left: 45px;
+    top: 1850px;
+    left: 58px;
     font-size: 65px;
     font-family: 'Cinzel', serif;
     z-index: 80;
@@ -301,8 +313,8 @@ h1.maya{
 }
 .profile h2{
     position: absolute;
-    top: 2200px;
-    left: 40px;
+    top: 2300px;
+    left: 42px;
     font-size: 30px;
     line-height: 70px;
     z-index: 80;
@@ -310,102 +322,116 @@ h1.maya{
 }
 .image2{
     position: absolute;
-    top: 1800px;
+    top: 2000px;
     left: 45px;
     height: 280px;
     width: 280px;
     z-index: 80;
 }
-.Programing h1{
+.imageprocessing h1{
     position: absolute;
-    top: 2700px;
+    top: 3000px;
     left: 30px;
-    font-size: 45px;
+    font-size: 35px;
 }
-.Programing p{
+.imageprocessing p{
     position: absolute;
-    top: 2750px;
-    left: 40px;
+    top: 3050px;
+    left: 52px;
     font-size: 20px;
 }
 .image3{
     position: absolute;
-    top: 3000px;
+    top: 3300px;
     left: 20px;
 }
 .image4{
     position: absolute;
-    top: 3260px;
+    top: 3560px;
     left: 20px;
 }
-.Programing span{
+.imageprocessing span{
     position: absolute;
-    top: 3000px;
+    top: 3300px;
     left: 0px;
     height: 510px;
     width: 100%;
 }
 .Illustrator h1{
     position: absolute;
-    top: 3700px;
-    left: 30px;
+    top: 3900px;
+    left: 43px;
     font-size: 45px;
 }
 .Illustrator p{
     position: absolute;
-    top: 3750px;
-    left: 40px;
+    top: 3950px;
+    left: 53px;
     font-size: 20px;
 }
 .image5{
     position: absolute;
-    height: 200px;
-    width: 300px;
-    top: 4000px;
+    height: 250px;
+    width: 350px;
+    top: 4200px;
     left: 20px;
 }
 .image6{
     position: absolute;
-    height: 200px;
-    width: 300px;
-    top: 4260px;
+    height: 250px;
+    width: 350px;
+    top: 4460px;
     left: 20px;
 }
 .Illustrator span{
     position: absolute;
-    top: 4000px;
+    top: 4200px;
     left: 0px;
     height: 510px;
     width: 100%;
 }
-.Maya h1{
+.Programing h1{
     position: absolute;
-    top: 4600px;
-    left: 30px;
+    top: 4800px;
+    left: 36px;
     font-size: 45px;
 }
-.Maya p{
+.Programing p{
     position: absolute;
-    top: 4650px;
-    left: 40px;
+    top: 4850px;
+    left: 45px;
     font-size: 20px;
 }
-.Maya span{
+.image7{
     position: absolute;
-    top: 4900px;
+    height: 250px;
+    width: 350px;
+    top: 5100px;
+    left: 20px;
+    }
+.image8{
+    position: absolute;
+    height: 250px;
+    width: 350px;
+    top: 5360px;
+    left: 20px;
+    }
+.Programing span{
+    position: absolute;
+    top: 5100px;
     left: 0px;
     height: 510px;
     width: 100%;
 }
 .ending h1{
     position: absolute;
-    top: 5650px;
+    top: 5850px;
     font-size: 20px;
-    left: 10px;
+    left: 58px;
 }
 .ending span{
     position: absolute;
-    top: 5600px;
+    top: 5800px;
     left: 0px;
     height: 300px;
     width: 100%;
